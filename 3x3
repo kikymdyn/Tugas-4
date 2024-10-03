@@ -1,0 +1,44 @@
+a = [[5, 2, 3], [1, 2, 3], [3, 2, 1]]
+b = [[4, 3, 2], [3, 2, 1], [1, 2, 3]]
+
+c = []
+
+baris_a = len(a)
+kolom_a = len(a[0])
+
+baris_b = len(b)
+kolom_b = len(b[0])
+
+print(a)
+print("Baris matriks a adalah: ", baris_a)
+print("Kolom matriks a adalah: ", kolom_a)
+print()
+print(b)
+print("Baris matriks b adalah: ", baris_b)
+print("Kolom matriks b adalah: ", kolom_b) 
+
+if (kolom_a != baris_b):
+    print("matriks a dengan b tidak dapat di kalikan")
+else:
+    print('''
+Matriks a dengan b dapat di kalikan''')
+    print('''
+Hasil perkalian matriks a dengan b:''')
+    c = (a[0][0]*b[0][0])+(a[0][1]*b[0][1])+(a[0][2]*b[1][2])
+print(c)
+
+
+
+PS C:\Users\LENOVO\Pictures\Media Madian\Madian\python>                                                                                                                                   > & C:/Users/LENOVO/AppData/Local/Programs/Python/Python312/python.exe "c:/Users/LENOVO/Pictures/Media Madian/Madian/python/tugas4.py"
+[[5, 2, 3], [1, 2, 3], [3, 2, 1]]
+Baris matriks a adalah:  3
+Kolom matriks a adalah:  3
+
+[[4, 3, 2], [3, 2, 1], [1, 2, 3]]
+Baris matriks b adalah:  3
+Kolom matriks b adalah:  3
+
+Matriks a dengan b dapat di kalikan
+
+Hasil perkalian matriks a dengan b:
+29
